@@ -1,6 +1,6 @@
 const initialPortfolioData = [
   {
-    name: "Хакатон. Лендинг для HR Яндекс.Практикума",
+    name: "Хакатон. MVP для HR Яндекс.Практикума",
     link: "https://loner789.github.io/hackathon-design-web/",
     description:
       "Хакатон. Разработка и создание лендинга для HR Яндекс.Практикума в составе команды из 3-х дизайнеров и 3-х разработчиков.",
