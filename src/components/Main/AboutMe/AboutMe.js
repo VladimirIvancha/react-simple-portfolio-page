@@ -31,6 +31,14 @@ function AboutMe() {
           >
             Моя страничка на Github Pages
           </a>
+          <a
+            className="aboutMe__info-cv"
+            target="_blank"
+            rel="noreferrer"
+            href="https://hh.ru/resume/badb57a9ff0b35b6b70039ed1f6f3956487662?disableBrowserCache=true&hhtmFrom=resume_list"
+          >
+            Моё резюме на HeadHunter
+          </a>
         </div>
         <div className="aboutMe__info-photo"></div>
       </div>

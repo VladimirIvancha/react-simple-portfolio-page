@@ -82,6 +82,16 @@
     text-decoration: none;
 }
 
+.aboutMe__info-cv {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: #000000;
+    margin: 0;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
 .aboutMe__info-profile:hover {
     opacity: 0.7;
 }
