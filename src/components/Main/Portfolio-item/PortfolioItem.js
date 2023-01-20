@@ -1,6 +1,6 @@
 import React from "react";
 
-function PortfolioItem({ name, link, description, functional }) {
+function PortfolioItem({ name, link, description, functional, githubLink }) {
   return (
     <li className="portfolio__item">
       <div className="portfolio__item-wrapper">
@@ -25,6 +25,17 @@ function PortfolioItem({ name, link, description, functional }) {
       <p className="portfolio__item-description-text">{description}</p>
       <p className="portfolio__item-description-title">Функционал:</p>
       <p className="portfolio__item-description-text">{functional}</p>
+      <p className="portfolio__item-description-title">
+        Проект на GitHub Pages:
+      </p>
+      <a
+        className="portfolio__link portfolio__link_gh-pages"
+        target="_blank"
+        rel="noreferrer"
+        href={githubLink}
+      >
+        {githubLink}
+      </a>
     </li>
   );
 }

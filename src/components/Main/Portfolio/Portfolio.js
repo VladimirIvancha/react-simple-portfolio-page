@@ -13,6 +13,7 @@ function Portfolio() {
             link={item.link}
             description={item.description}
             functional={item.functional}
+            githubLink={item.githubLink}
           />
         ))}
       </ul>

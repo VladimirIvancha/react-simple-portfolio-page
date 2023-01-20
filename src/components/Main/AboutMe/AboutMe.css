@@ -93,7 +93,11 @@
 }
 
 .aboutMe__info-profile:hover {
-    opacity: 0.7;
+    color: blue;
+}
+
+.aboutMe__info-cv:hover {
+    color: blue;
 }
 
 .aboutMe__info-photo {
