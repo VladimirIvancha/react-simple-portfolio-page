@@ -29,7 +29,7 @@ function PortfolioItem({ name, link, description, functional, githubLink }) {
         Проект на GitHub Pages:
       </p>
       <a
-        className="portfolio__link portfolio__link_gh-pages"
+        className="portfolio__link_gh-pages"
         target="_blank"
         rel="noreferrer"
         href={githubLink}
